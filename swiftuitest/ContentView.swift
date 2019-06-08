@@ -9,15 +9,30 @@
 import SwiftUI
 
 struct ContentView : View {
+    
+    var tests: [Testchamber] = []
+    
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List(tests) { test in
+                NavigationButton(destination: TestchamberView(chamber: test)) {
+                    VStack(alignment: .leading) {
+                        Text("Testchamber \(test.number)")
+                        Text("Supervisor: \(test.managedBy)")
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
+                    }
+                }
+            }
+                .navigationBarTitle(Text("Chambers"))
+        }
     }
 }
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(tests: sampleTests)
     }
 }
 #endif

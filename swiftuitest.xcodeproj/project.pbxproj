@@ -13,6 +13,8 @@
 		BF162D2D22A89AEB00574084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF162D2C22A89AEB00574084 /* Assets.xcassets */; };
 		BF162D3022A89AEB00574084 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF162D2F22A89AEB00574084 /* Preview Assets.xcassets */; };
 		BF162D3322A89AEB00574084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF162D3122A89AEB00574084 /* LaunchScreen.storyboard */; };
+		BF6413AE22A9E5F300596A36 /* TestDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6413AD22A9E5F300596A36 /* TestDataModel.swift */; };
+		BF6413B222A9F2EF00596A36 /* TestchamberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6413B122A9F2EF00596A36 /* TestchamberView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BF162D2F22A89AEB00574084 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF162D3222A89AEB00574084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF162D3422A89AEB00574084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6413AD22A9E5F300596A36 /* TestDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataModel.swift; sourceTree = "<group>"; };
+		BF6413B122A9F2EF00596A36 /* TestchamberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestchamberView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BF162D3122A89AEB00574084 /* LaunchScreen.storyboard */,
 				BF162D3422A89AEB00574084 /* Info.plist */,
 				BF162D2E22A89AEB00574084 /* Preview Content */,
+				BF6413AD22A9E5F300596A36 /* TestDataModel.swift */,
+				BF6413B122A9F2EF00596A36 /* TestchamberView.swift */,
 			);
 			path = swiftuitest;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF162D2722A89AE800574084 /* AppDelegate.swift in Sources */,
+				BF6413AE22A9E5F300596A36 /* TestDataModel.swift in Sources */,
 				BF162D2922A89AE800574084 /* SceneDelegate.swift in Sources */,
+				BF6413B222A9F2EF00596A36 /* TestchamberView.swift in Sources */,
 				BF162D2B22A89AE800574084 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "swiftuitest/Preview\\ Content";
-				DEVELOPMENT_TEAM = FQQXSP79X3;
+				DEVELOPMENT_TEAM = N4K7Y69MC5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = swiftuitest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "swiftuitest/Preview\\ Content";
-				DEVELOPMENT_TEAM = FQQXSP79X3;
+				DEVELOPMENT_TEAM = N4K7Y69MC5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = swiftuitest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
